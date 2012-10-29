@@ -1,0 +1,5 @@
+<component name="sayservice-test-component">
+	<extension target="hello-component" point="name">
+		<name value="Damien" />
+	</extension>
+</component>

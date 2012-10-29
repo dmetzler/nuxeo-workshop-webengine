@@ -1,0 +1,10 @@
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Manifest-Version: 1.0
+Bundle-Name: nuxeo-wall-workshop-webapp2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: Nuxeo
+Bundle-Version: 1.0.qualifier
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: nuxeo-wall-workshop-webapp2
+Nuxeo-WebModule: org.nuxeo.ecm.webengine.app.WebEngineModule;name=wall;extends=base;package=org/nuxeo/sample

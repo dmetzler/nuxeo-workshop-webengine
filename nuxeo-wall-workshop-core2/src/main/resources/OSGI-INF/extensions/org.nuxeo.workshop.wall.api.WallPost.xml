@@ -1,0 +1,9 @@
+<component name="org.nuxeo.workshop.wall.api.WallPost">
+
+   <extension target="org.nuxeo.ecm.core.api.DocumentAdapterService" point="adapters">
+       <adapter
+           class="org.nuxeo.workshop.wall.api.WallPost"
+           factory="org.nuxeo.workshop.wall.api.WallPostFactory"/>
+   </extension>
+    
+</component>

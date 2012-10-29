@@ -1,0 +1,17 @@
+<component name="hello-component">
+
+
+	<implementation class="org.nuxeo.workshop.wall.SayServiceImpl"/>
+
+	<service>
+		<provide interface="org.nuxeo.workshop.wall.api.SayService" />
+	</service>
+
+
+	<extension-point name="name">
+		<documentation>
+			With this extension, you can define the name the service uses
+		</documentation>
+		<object class="org.nuxeo.workshop.wall.NameExtensionDescriptor" />
+	</extension-point>
+</component>
